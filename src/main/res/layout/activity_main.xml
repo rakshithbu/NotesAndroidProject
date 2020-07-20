@@ -54,69 +54,69 @@
         </FrameLayout>
 
     </LinearLayout>
-<LinearLayout
-    android:layout_width="240dp"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:layout_gravity="start"
-    >
-    <TextView
-        android:id="@+id/username"
-        android:layout_width="240dp"
-        android:layout_height="100dp"
-        android:textSize="20dp"
-        android:gravity="center"
-        android:text="user"
-        android:clickable="true"
 
-        android:textStyle="bold">
-    </TextView>
-
-    <TextView
+    <LinearLayout
         android:layout_width="240dp"
-        android:layout_height="45dp"
-        android:textStyle="bold"
-        android:text="Your Categories"
-        android:padding="10dp"
-        android:textColor="@android:color/black"
-        android:choiceMode="singleChoice"
-        android:clickable="true" />
-
-    <ListView
-        android:id="@+id/left_drawer"
-        android:layout_width="240dp"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:choiceMode="singleChoice"
-        android:divider="@android:color/darker_gray"
-        android:dividerHeight="1dp" >
-    </ListView>
+        android:background="#B3B3FF"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="user"
+            android:textSize="20dp"
+
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="240dp"
+            android:layout_height="45dp"
+            android:choiceMode="singleChoice"
+            android:clickable="true"
+            android:padding="10dp"
+            android:text="Your Categories"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/darker_gray"
+            android:dividerHeight="1dp"></ListView>
 
 
-    <TextView
-        android:id="@+id/manageCats"
-        android:layout_width="240dp"
-        android:layout_height="55dp"
+        <TextView
+            android:id="@+id/manageCats"
+            android:layout_width="240dp"
+            android:layout_height="55dp"
 
-        android:text="Manage Categories"
-        android:paddingRight="10dp"
-        android:paddingTop="30dp"
-        android:paddingLeft="20dp"
-        android:textStyle="bold"
-        android:textColor="@android:color/black"
-        android:clickable="true" />
+            android:clickable="true"
+            android:paddingLeft="20dp"
+            android:paddingTop="30dp"
+            android:paddingRight="10dp"
+            android:text="Manage Categories"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/logout"
-        android:layout_width="240dp"
-        android:layout_height="55dp"
+        <TextView
+            android:id="@+id/logout"
+            android:layout_width="240dp"
+            android:layout_height="55dp"
 
-        android:text="Logout"
-        android:paddingRight="10dp"
-        android:paddingTop="30dp"
-        android:paddingLeft="20dp"
-        android:textStyle="bold"
-        android:textColor="@android:color/black"
-        android:clickable="true" />
-</LinearLayout>
+            android:clickable="true"
+            android:paddingLeft="20dp"
+            android:paddingTop="30dp"
+            android:paddingRight="10dp"
+            android:text="Logout"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+    </LinearLayout>
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -43,7 +43,7 @@
         android:layout_marginTop="20dp"
         android:background="@drawable/bg_button"
         android:text="Sign up"
-        android:textColor="#FFEB3B"
+        android:textColor="@android:color/black"
         app:layout_constraintStart_toEndOf="@+id/existingUser"
         app:layout_constraintTop_toBottomOf="@+id/passwordEditText" />
 
@@ -55,7 +55,7 @@
         android:layout_marginLeft="44dp"
         android:layout_marginTop="32dp"
         android:text="Already have an account?"
-        android:textColor="#FFEB3B"
+        android:textColor="@android:color/black"
         android:textColorHint="#FFFFFF"
         android:textSize="18dp"
         app:layout_constraintStart_toStartOf="parent"
